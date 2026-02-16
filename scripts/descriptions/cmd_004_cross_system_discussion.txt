@@ -1,0 +1,5 @@
+# Claude Code猫システム <-> Codex猫システム 連携の総合議論
+worker1: Evaluate primary benefits of cross-system collaboration (quality, speed, resilience) with concrete examples and success conditions.
+worker2: Enumerate primary drawbacks/costs (complexity, coordination, failure handling, hidden cost) and propose mitigations.
+worker3: Identify future likely failure scenarios (protocol drift, deadlocks, stale state, accountability gaps) and define detection/containment strategies.
+worker4: Provide integrated governance proposal: operating model, decision rules, handoff contract, and rollout plan (pilot to full adoption).

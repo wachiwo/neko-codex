@@ -1,0 +1,4 @@
+# Format: worker_id: description
+worker1: メリット3つと想定反論1つを簡潔に整理
+worker2: デメリット3つと緩和策1つを簡潔に整理
+worker3: メリデメ比較と採用判断基準を提示

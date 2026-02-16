@@ -1,0 +1,21 @@
+evaluations:
+  - task_id: cmd_skillpilot_001
+    name: "neko-bridge-outbox-evidence-packager"
+    proposed_by: worker1
+    source_report: "queue/reports/worker1_cmd_skillpilot_001_report.yaml"
+    score:
+      reusability: 5
+      complexity: 2
+      stability: 4
+      value: 4
+      subtotal: 15
+      deduction: 0
+      total: 15
+    recommendation: recommended
+    action: design_doc
+    duplicate_check:
+      existing_skill: false
+      name_collision_in_batch: 1
+    candidate:
+      description: "Use when bridge outbox must be finalized with worker_count, worker_report_paths, and source attribution in a repeatable format."
+      reason: "Bridge系タスクで同じ整形手順が繰り返されるため、定型化で手戻りを削減できる。"

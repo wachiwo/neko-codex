@@ -1,0 +1,28 @@
+version: "1.0"
+
+ext_html: html_css
+ext_htm: html_css
+ext_css: html_css
+ext_scss: html_css
+ext_md: markdown
+ext_sh: shell
+ext_bash: shell
+ext_yaml: yaml
+ext_yml: yaml
+
+base_check_1: "No syntax-level defects in deliverables and scripts"
+base_check_2: "No unsafe/destructive command paths without explicit approval"
+base_check_3: "Output format matches requested contract and file path"
+base_check_4: "Evidence and source attribution are present when claims are borrowed"
+
+html_css_check_1: "Responsive layout assumptions are stated when UI/CSS changes are involved"
+html_css_check_2: "No inline-style sprawl unless explicitly requested"
+
+markdown_check_1: "Required sections and header fields are complete"
+markdown_check_2: "Claims are tied to concrete file references"
+
+shell_check_1: "set -euo pipefail is used unless there is a documented reason"
+shell_check_2: "Quoting and variable expansion are safe for paths with spaces"
+
+yaml_check_1: "Required keys are present and status transitions are valid"
+yaml_check_2: "No malformed indentation or invalid scalar quoting"

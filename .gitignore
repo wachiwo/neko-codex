@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local Codex runtime
+.codex/
+
+# Runtime artifacts
+logs/
+status/
+outputs/
+
+# Bridge runtime data
+bridge/inbox/
+bridge/outbox/
+bridge/index.md
+bridge/index.lock
+
+# Queue runtime data
+queue/inbox/
+queue/reports/
+queue/tasks/
+queue/oyabun_to_kashira.yaml
+queue/approval_required.yaml
+
+# Runtime state files
+*.pid
+*.lock
+*.session
+*.heartbeat
+
+# Keep docs/contracts in bridge
+!bridge/contracts.md

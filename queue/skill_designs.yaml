@@ -1,0 +1,29 @@
+skill_designs:
+  - task_id: cmd_skillpilot_001
+    name: "neko-bridge-outbox-evidence-packager"
+    description: "Use when bridge outbox must be finalized with worker_count, worker_report_paths, and source attribution in a repeatable format."
+    trigger: "Use when bridge outbox must be finalized with worker_count, worker_report_paths, and source attribution in a repeatable format."
+    structure:
+      - SKILL.md
+      - scripts/
+      - resources/
+    save_path: "/home/takuma/.codex/skills/neko-bridge-outbox-evidence-packager/"
+    instructions:
+      overview: "Bridge系タスクで同じ整形手順が繰り返されるため、定型化で手戻りを削減できる。"
+      when_to_use: "Use when bridge outbox must be finalized with worker_count, worker_report_paths, and source attribution in a repeatable format."
+      critical_rules:
+        - "Use this skill only when trigger conditions are explicit."
+        - "Do not bypass duplicate check before generation."
+      steps:
+        - "Collect concrete inputs and expected outputs."
+        - "Run with reproducible commands and evidence output."
+        - "Attach source_attribution in the final report."
+    evaluation:
+      score: "15/20"
+      recommendation: "recommended"
+    existing_skill_comparison:
+      checked: true
+      existing_skills_found: []
+      deduction: 0
+      action: "design_doc"
+    source_report: "queue/reports/worker1_cmd_skillpilot_001_report.yaml"

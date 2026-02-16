@@ -1,0 +1,31 @@
+version: "1.0"
+title: "Skill Candidate Evaluation Rubric (20 points)"
+updated_at: "2026-02-16"
+
+criteria:
+  - name: reusability
+    max_points: 5
+    question: "Can this be reused across tasks/projects?"
+  - name: complexity
+    max_points: 5
+    question: "Is this substantial enough to justify a skill?"
+  - name: stability
+    max_points: 5
+    question: "Will trigger and procedure remain stable over time?"
+  - name: value
+    max_points: 5
+    question: "Will this reduce recurring effort or risk?"
+
+thresholds:
+  strongly_recommended: "16-20"
+  recommended: "12-15"
+  skip: "0-11"
+
+deductions:
+  duplicate_existing_skill: 5
+  batch_name_collision: 2
+
+policy:
+  - "Only candidates with score >= 12 move to skill_designs."
+  - "Description must be trigger-specific, not generic."
+  - "One candidate per task_id."

@@ -1,0 +1,4 @@
+worker1:Security-focused review of /mnt/c/tools/discord-bot (auth checks, token handling, injection/log exposure). Output severity findings with concrete file references.
+worker2:Error-handling review of /mnt/c/tools/discord-bot (exceptions, retry/timeout, graceful shutdown, failure UX). Output severity findings with concrete file references.
+worker3:Code-quality and operations review of /mnt/c/tools/discord-bot (structure, naming, maintainability, config/runtime observability). Output severity findings with concrete file references.
+worker4:Bridge robustness review of /mnt/c/tools/discord-bot (lock lifecycle, ID collision risk, cleanup on failure, contracts alignment). Output severity findings with concrete file references.

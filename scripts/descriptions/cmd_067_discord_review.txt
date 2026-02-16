@@ -1,0 +1,4 @@
+worker1:Review /mnt/c/tools/discord-bot for security issues (authorization bypass, token handling, injection risk, audit-log privacy). Output severity-tagged findings with exact file paths.
+worker2:Review /mnt/c/tools/discord-bot for error handling and recovery (exceptions, retries/timeouts, graceful shutdown, user-facing failure messages). Output severity-tagged findings with exact file paths.
+worker3:Review /mnt/c/tools/discord-bot for code quality and maintainability (structure, naming, cohesion, config ergonomics, observability). Output severity-tagged findings with exact file paths.
+worker4:Review /mnt/c/tools/discord-bot for bridge robustness (lock lifecycle, ID collision prevention, index/inbox consistency, cleanup on failure, contracts alignment). Output severity-tagged findings with exact file paths.

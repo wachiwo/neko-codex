@@ -1,0 +1,17 @@
+approvals:
+  - task_id: cmd_example_001
+    name: neko-example-skill
+    decision: approved
+    description: "Use when the same multi-step workflow repeats across tasks."
+    trigger: "When a task repeats the same 3+ step procedure with stable inputs."
+    source_report: "queue/reports/worker1_cmd_example_001_report.yaml"
+    cross_review: passed
+    trigger_quality: passed
+  - task_id: cmd_skillpilot_001
+    name: neko-bridge-outbox-evidence-packager
+    decision: approved
+    description: "Use when bridge outbox must be finalized with worker_count, worker_report_paths, and source attribution in a repeatable format."
+    trigger: "Use when bridge outbox must be finalized with worker_count, worker_report_paths, and source attribution in a repeatable format."
+    source_report: "queue/reports/worker1_cmd_skillpilot_001_report.yaml"
+    cross_review: passed
+    trigger_quality: passed

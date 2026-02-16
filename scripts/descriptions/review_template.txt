@@ -1,0 +1,6 @@
+# review dispatch template
+# Format: worker_id: description
+worker1: 対象の要件適合性と仕様抜けを重点レビューし、根拠付きで指摘する。
+worker2: セキュリティ・運用リスクを重点レビューし、再現条件と緩和策を示す。
+worker3: DX/ワークフロー影響を重点レビューし、手戻りを減らす改善案を示す。
+worker4: 最終統合観点で優先順位を付け、採否判断に必要な証拠を整理する。
